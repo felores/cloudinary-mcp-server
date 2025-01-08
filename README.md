@@ -2,6 +2,28 @@
 
 This MCP server provides tools for uploading images and videos to Cloudinary through Claude Desktop and compatible MCP clients.
 
+## Installation
+
+### Quick Install (Recommended)
+```bash
+npx @felores/cloudinary-mcp-server
+```
+
+### Developer Installation
+If you want to modify the server or contribute to development:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/felores/cloudinary-mcp-server.git
+cd cloudinary-mcp-server
+```
+
+2. Install dependencies and build:
+```bash
+npm install
+npm run build
+```
+
 ## Setup Instructions
 
 1. First, ensure you have a Cloudinary account and get your credentials from the [Cloudinary Console](https://console.cloudinary.com/settings/api-keys):

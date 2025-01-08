@@ -1,12 +1,16 @@
 {
-  "name": "cloudinary-mcp-server",
+  "name": "@felores/cloudinary-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for Cloudinary upload functionality",
   "main": "dist/index.js",
   "type": "module",
+  "bin": {
+    "cloudinary-mcp-server": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "0.6.0",
