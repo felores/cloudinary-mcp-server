@@ -2,6 +2,8 @@
 
 This MCP server provides tools for uploading images and videos to Cloudinary through Claude Desktop and compatible MCP clients.
 
+<a href="https://glama.ai/mcp/servers/zjiw1ry8ly"><img width="380" height="200" src="https://glama.ai/mcp/servers/zjiw1ry8ly/badge" alt="Cloudinary Server MCP server" /></a>
+
 ## Installation
 
 ### Quick Install (Recommended)
