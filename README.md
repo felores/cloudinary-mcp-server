@@ -1,6 +1,6 @@
 # Cloudinary MCP Server
 
-This MCP server provides tools for uploading images and videos to Cloudinary through Claude/Cline.
+This MCP server provides tools for uploading images and videos to Cloudinary through Claude Desktop and compatible MCP clients.
 
 ## Setup Instructions
 
@@ -10,8 +10,6 @@ This MCP server provides tools for uploading images and videos to Cloudinary thr
    - API Secret
 
 2. Add the server configuration to your Claude/Cline MCP settings file:
-
-For Cline, edit `c:\Users\felor\AppData\Roaming\Cursor\User\globalStorage\saoudrizwan.claude-dev\settings\cline_mcp_settings.json`:
 
 ```json
 {
