@@ -8,6 +8,7 @@ import {
   McpError,
 } from "@modelcontextprotocol/sdk/types.js";
 import { v2 as cloudinary, UploadApiResponse } from "cloudinary";
+import { readFile } from 'node:fs/promises';
 
 // Get Cloudinary config from environment variables
 const CLOUD_NAME = process.env.CLOUDINARY_CLOUD_NAME;
@@ -121,9 +122,8 @@ class CloudinaryServer {
           chunk_size: 20000000 // 20MB chunks
         };
 
-        // Use fs.promises for better async handling
-        const fs = require('fs').promises;
-        const buffer = await fs.readFile(args.file);
+        // Read the file into a buffer
+        const buffer = await readFile(args.file);
         
         // Upload the file buffer
         const result = await new Promise<UploadApiResponse>((resolve, reject) => {
