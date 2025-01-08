@@ -16,7 +16,7 @@ This MCP server provides tools for uploading images and videos to Cloudinary thr
   "mcpServers": {
     "cloudinary": {
       "command": "node",
-      "args": ["d:/AI-DEV/cloudinary-mcp-server/dist/index.js"],
+      "args": ["c:/path/to/cloudinary-mcp-server/dist/index.js"],
       "env": {
         "CLOUDINARY_CLOUD_NAME": "your_cloud_name",
         "CLOUDINARY_API_KEY": "your_api_key",
