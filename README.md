@@ -11,6 +11,26 @@ This MCP server provides tools for uploading images and videos to Cloudinary thr
 npx @felores/cloudinary-mcp-server
 ```
 
+After installation, add the following configuration to your Claude/Cline MCP settings file:
+
+```json
+{
+  "mcpServers": {
+    "cloudinary": {
+      "command": "npx",
+      "args": ["@felores/cloudinary-mcp-server"],
+      "env": {
+        "CLOUDINARY_CLOUD_NAME": "your_cloud_name",
+        "CLOUDINARY_API_KEY": "your_api_key",
+        "CLOUDINARY_API_SECRET": "your_api_secret"
+      }
+    }
+  }
+}
+```
+
+Make sure to replace the environment variables with your Cloudinary credentials from the [Cloudinary Console](https://console.cloudinary.com/settings/api-keys).
+
 ### Developer Installation
 If you want to modify the server or contribute to development:
 
