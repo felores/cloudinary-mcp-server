@@ -1,10 +1,19 @@
 # Cloudinary MCP Server
+[![smithery badge](https://smithery.ai/badge/@felores/cloudinary-mcp-server)](https://smithery.ai/server/@felores/cloudinary-mcp-server)
 
 This MCP server provides tools for uploading images and videos to Cloudinary through Claude Desktop and compatible MCP clients.
 
 <a href="https://glama.ai/mcp/servers/zjiw1ry8ly"><img width="380" height="200" src="https://glama.ai/mcp/servers/zjiw1ry8ly/badge" alt="Cloudinary Server MCP server" /></a>
 
 ## Installation
+
+### Installing via Smithery
+
+To install Cloudinary Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@felores/cloudinary-mcp-server):
+
+```bash
+npx -y @smithery/cli install @felores/cloudinary-mcp-server --client claude
+```
 
 ### Quick Install (Recommended)
 ```bash
