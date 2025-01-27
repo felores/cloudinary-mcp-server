@@ -6,12 +6,24 @@ This MCP server provides tools for uploading images and videos to Cloudinary thr
 
 ## Installation
 
-### Quick Install (Recommended)
-```bash
-npx @felores/cloudinary-mcp-server
-```
+### Requirements: Node.js
 
-After installation, add the following configuration to your Claude/Cline MCP settings file:
+1. Install Node.js (version 18 or higher) and npm from [nodejs.org](https://nodejs.org/)
+2. Verify installation:
+   ```bash
+   node --version
+   npm --version
+   ```
+
+### Install using npx (Recommended)
+1. Navigate to the Claude configuration directory:
+
+   - Windows: `C:\Users\NAME\AppData\Roaming\Claude`
+   - macOS: `~/Library/Application Support/Claude/`
+   
+   You can also find these directories inside the Claude Desktop app: Claude Desktop > Settings > Developer > Edit Config
+
+2. Add the following configuration to your MCP settings file:
 
 ```json
 {
@@ -29,7 +41,7 @@ After installation, add the following configuration to your Claude/Cline MCP set
 }
 ```
 
-Make sure to replace the environment variables with your Cloudinary credentials from the [Cloudinary Console](https://console.cloudinary.com/settings/api-keys).
+3. Make sure to replace the environment variables with your Cloudinary credentials from the [Cloudinary Console](https://console.cloudinary.com/settings/api-keys).
 
 ### Developer Installation
 If you want to modify the server or contribute to development:
