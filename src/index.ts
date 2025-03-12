@@ -57,7 +57,7 @@ class CloudinaryServer {
       tools: [
         {
           name: "upload",
-          description: "Upload media (images/videos) to Cloudinary. For large files, the upload is processed in chunks and returns a streaming response. The uploaded asset will be available at:\n- HTTP: http://res.cloudinary.com/{cloud_name}/{resource_type}/upload/v1/{public_id}.{format}\n- HTTPS: https://res.cloudinary.com/{cloud_name}/{resource_type}/upload/v1/{public_id}.{format}\nwhere cloud_name='dadljfaoz', resource_type is 'image' or 'video', and format is determined by the file extension.",
+          description: "Upload media (images/videos) to Cloudinary. For large files, the upload is processed in chunks and returns a streaming response. The uploaded asset will be available at:\n- HTTP: http://res.cloudinary.com/{cloud_name}/{resource_type}/upload/v1/{public_id}.{format}\n- HTTPS: https://res.cloudinary.com/{cloud_name}/{resource_type}/upload/v1/{public_id}.{format}\nwhere {cloud_name} is your Cloudinary cloud name, resource_type is 'image' or 'video', and format is determined by the file extension.",
           inputSchema: {
             type: "object",
             properties: {
