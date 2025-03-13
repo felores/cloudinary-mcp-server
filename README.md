@@ -30,7 +30,7 @@ This MCP server provides tools for uploading images and videos to Cloudinary thr
   "mcpServers": {
     "cloudinary": {
       "command": "npx",
-      "args": ["@felores/cloudinary-mcp-server"],
+      "args": ["@felores/cloudinary-mcp-server@latest"],
       "env": {
         "CLOUDINARY_CLOUD_NAME": "your_cloud_name",
         "CLOUDINARY_API_KEY": "your_api_key",
